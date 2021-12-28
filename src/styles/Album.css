@@ -1,0 +1,46 @@
+.album-page {
+  background: #FAFAFA;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+.album-page .album-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: flex-start;
+  width: 250px;
+  height: 270px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.158);
+  background: rgb(250, 249, 249);
+}
+
+.album-page .album-header .album-image {
+  width: 100%;
+  height: 60%;
+}
+
+.album-page .album-header .album-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}
+
+.album-page .album-header .album-header-info {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.album-page .music-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  justify-content: center;
+}
